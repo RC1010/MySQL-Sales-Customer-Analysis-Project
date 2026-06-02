@@ -29,29 +29,24 @@ The analysis was performed on a unified table named `sales` within the `sales_an
 ## 📈 Key Insights & Results
 
 ### 1. Which products sell the most?
-The full ranking of our top-performing products by volume and revenue can be found directly in the data export file here: [top_products.csv](./data_exports/top_products.csv).
+*The data reveals the top-performing inventory items by total unit volume sold and absolute revenue generated.*
 
+👉 **View Dataset:** [https://github.com/RC1010/MySQL-Sales-Customer-Analysis-Project/blob/main/SQL%20Sales%20Analysis/Data/top_products.csv]
 
 ### 2. Which customers spend the most?
 *Identifies top-tier lifetime value (LTV) VIP buyers based on cumulative spending.*
 
-
-| Customer Name | Total Orders | Total Lifetime Spend ($) |
-| :--- | :--- | :--- |
-| [Insert Name 1] | [Insert Count] | $[Insert Spend] |
-| [Insert Name 2] | [Insert Count] | $[Insert Spend] |
+👉 **View Dataset:** [https://github.com/RC1010/MySQL-Sales-Customer-Analysis-Project/blob/main/SQL%20Sales%20Analysis/Data/top_customers.csv]
 
 ### 3. Which month generated the highest revenue?
 *Highlights cyclical seasonal peaks and the absolute highest-grossing calendar month.*
 
-* **Highest Revenue Month:** `[Insert YYYY-MM]`
-* **Total Monthly Revenue:** `$[Insert Amount]`
-* **Total Transactions:** `[Insert Number of Orders]`
+👉 **View Dataset:** [https://github.com/RC1010/MySQL-Sales-Customer-Analysis-Project/blob/main/SQL%20Sales%20Analysis/Data/highest_revenue_months.csv]
 
 ### 4. What are the sales trends over time?
 *Chronological review of monthly performance showing market trajectory.*
 
-* **Growth Summary:** [Write a quick 1-2 sentence summary of whether your sales are going up, staying flat, or dropping as time moves forward].
+👉 **View Dataset:** [https://github.com/RC1010/MySQL-Sales-Customer-Analysis-Project/blob/main/SQL%20Sales%20Analysis/Data/sales_trends_timeline.csv]
 
 ---
 
@@ -59,5 +54,5 @@ The full ranking of our top-performing products by volume and revenue can be fou
 1. Clone this repository to your local machine.
 2. Ensure **MySQL Server** is running on your localhost.
 3. Import your source dataset into a schema named `sales_analysis` and name the table `sales`.
-4. Open the `sales_analysis.sql` file in **MySQL Workbench**.
+4. Open your query file in **MySQL Workbench**.
 5. Execute the queries sequentially to populate the results grid.
